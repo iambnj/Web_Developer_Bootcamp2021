@@ -28,5 +28,6 @@ div {
     border-style: double;
     box-sizing: border-box;
     border-radius: 8px;
+    border-left-width: 30px;
 }
 
