@@ -1,0 +1,23 @@
+div {
+    width: 33%;
+    height: 33%;
+    background-color: bisque;
+}
+
+#one {
+    background-color: blue;
+    border-width: 5px;
+    border-color: crimson;
+    border-style: groove;
+    box-sizing: border-box;
+    
+}
+
+#two {
+    background-color: blueviolet;
+}
+
+#three {
+    background-color: coral;
+}
+
