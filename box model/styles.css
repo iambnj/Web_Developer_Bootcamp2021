@@ -1,0 +1,32 @@
+div {
+    width: 33%;
+    height: 33%;
+    background-color: bisque;
+}
+
+#one {
+    background-color: blue;
+    border-width: 5px;
+    border-color: crimson;
+    border-style: groove;
+    box-sizing: border-box;
+    
+}
+
+#two {
+    background-color: blueviolet;
+    border-width: 8px;
+    border-color: pink;
+    border-style: dotted;
+    box-sizing: border-box;
+}
+
+#three {
+    background-color: coral;
+    border-width: 8px;
+    border-color: teal;
+    border-style: double;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
