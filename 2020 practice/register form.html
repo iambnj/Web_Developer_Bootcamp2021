@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+
+<div>
+<label for="firstname"><strong>First Name:</strong></label>
+<input id="firstname" name="firstname" type="text" placeholder="John" required>
+
+<label for="lastname"><strong>Last Name:</strong></label>
+<input id="lastname" name="lastname" type="text" placeholder="Smith" required>
+</div>
+
+
+<div>
+<label for="malegender"><strong>Male</strong></label>
+<input id="malegender" type="radio" name="gender" value="male">
+
+<label for="femalegender"><strong>Female</strong></label>
+<input id="femalegender" type="radio" name="gender" value="female">
+
+<label for="othergender"><strong>Other</strong></label>
+<input id="othergender" type="radio" name="gender" value="other">
+</div>
+
+
+<div>	
+<label for="email"><strong>Email:</strong></label>
+<input id="email" type="email" name="email" placeholder="your email" required>
+
+<label for="password"><strong>Password:</strong></label>
+<input id="password" type="password" name="password" placeholder="your password" minlength="8" maxlength="12" required>
+</div>
+
+
+<div>	
+<label for="birthday"><strong>Birthday:</strong></label>
+
+<select name="month" required>	
+<option>Month</option>
+<option>Jan</option>
+<option>Feb</option>
+<option>Mar</option>
+<option>Apr</option>
+<option>May</option>
+<option>Jun</option>
+<option>Jul</option>
+<option>Aug</option>
+<option>Sep</option>
+<option>Oct</option>
+<option>Nov</option>
+<option>Dec</option>
+</select>
+
+<select name="day" required>
+<option>Day</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
+</select>
+
+<select name="year">	
+<option>Year</option>
+<option>2000</option>
+<option>1999</option>
+<option>1998</option>
+<option>1997</option>
+<option>1996</option>
+<option>1995</option>
+<option>1994</option>
+<option>1993</option>
+<option>1992</option>
+<option>1991</option>
+</select>
+</div>
+
+<div>
+<strong>I agree to the terms and conditions</strong>
+<input type="checkbox" required>
+
+</div>
+
+<button>Submit</button>
+
+</form>
+</body>
+</html>

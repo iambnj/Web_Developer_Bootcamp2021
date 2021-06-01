@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="/form_testing">
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="enter password">
+        <input type="checkbox">
+        <input type="button">
+        <input type="radio">
+        <input type="image">
+        <input type="search">
+        <input type="submit">
+        <input type="time">
+        <input type="range">
+        <input type="datetime-local">
+        <input type="reset">
+        <input type="color">
+    </form>
+
+    <br>
+
+    <h1>Forms Pt.2</h1>
+    <form action="/specials">
+        <p>
+            <label for="username">Enter username</label>
+            <input type="text" placeholder="username" id="username" name="usernm">
+        </p>
+        <p>
+            <label for="password">enter your password</label>
+            <input type="password" placeholder="enter your password" id="password" name="pw">
+        </p>
+        <p>
+            <label for="color">pick a color</label>
+            <input type="color" placeholder="placeholdertext" id="color" name="color">
+        </p>
+        <p>
+            <label for="submit"></label>
+            <input type="submit" id="submit">
+        </p>
+
+        <input type="button">
+        <input type="button">
+        <input type="button">
+        <input type="button">
+        <p>
+            <button type="button">Click ME!!</button>
+        </p>
+    </form>
+
+    <form action="https://www.google.com/search?q=">
+        <label for="q">search</label>
+        <input type="text" name="q"></input>
+        <button>Click Here!</button>
+    </form>
+
+    <form action="/goodtry">
+        <p>
+            <label for="boys">Boys</label>
+            <input type="radio" name="boyorgirl" id="boys" checked value="boys"></input>
+        </p>
+        <p>
+            <label for="girls">Girls</label>
+            <input type="radio" name="boyorgirl" id="girls" value="girls"></input>
+        </p>
+        <button>Submit your choice...</button>
+    </form>
+
+
+    <form action="/boysvsgirls">
+        <label for="boys1">Boys</label>
+        <input type="radio" name="boys" id="boys1"></input>
+
+        <label for="girls1">Girls</label>
+        <input type="radio" name="girls" id="girls1"></input>
+        <button>Click here when done...</button>
+    </form>
+
+    <form action="/shoes">
+        <label for="shoes">Choose your fav shoe</label>
+        <select name="kicks" id="shoes">
+            <option value="" id="shoes">--Please choose an option--</option>
+            <option name="js" value="jordans" id="shoes" selected>Jordans</option>
+            <option name="a" value="adidas" id="shoes">Adidas</option>
+            <option name="r" value="reebook" id="shoes">Reebok</option>
+        </select>
+        <button>Confirm fav shoe brand</button>
+    </form>
+
+    <form action="/ranges">
+        <input type="range" name="dthroat" id="deep" min="1" max="10" step="2" value="10"></input>
+        <label for="deep">How Deep</label>
+        <button>Submit</button>
+    </form>
+
+    <p>
+    <form action="/story">
+        <label for="life_story">Enter your life story...</label> <br>
+        <textarea name="myStory" id="life_story" cols="30" rows="10" placeholder="Start typing"></textarea>
+        <button>Submit life story</button>
+    </form>
+    </p>
+
+    <form action="/password">
+        <label for="pw">password</label>
+        <input type="password" id="pw">
+    </form>
+    <hr>
+    <form action="/validation">
+        <label for="a">Comments below:</label><br>
+        <textarea name="cb" id="a" cols="30" rows="10" required></textarea><br>
+
+        <label for="r"></label>
+        <input type="url" id="r" required> <br>
+        <button>Done</button>
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+h2 {
+    color: blue;
+
+}
+
+h3 {
+    color: brown;
+}
+
+/* p {
+    background-color: #c96480;
+    color: #37515f;
+    line-height: 2em;
+} */
+
+h1{
+    text-align: center;
+    width: auto;
+    font-weight: 800;
+    text-decoration: overline wavy;
+    letter-spacing: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: all;
+    background-color: #78c3fb;
+}
+
