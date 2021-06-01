@@ -1,0 +1,82 @@
+* {
+    background-color: #d4a373;
+}
+
+button {
+    font-size: 50px;
+    background-color: #78c3fb;
+}
+
+button#b1 {
+    background-color: #c96480;
+}
+
+#b2 {
+    background-color: white;
+}
+
+.bold {
+    color: black;
+    background-color: #78c3fb;
+}
+
+hr + p {
+    background-color: blue;
+}
+
+footer a {
+    color: palevioletred;
+}
+
+footer > a {
+    color: blueviolet;
+}
+
+input[type="password"] {
+    color: green;
+    background-color: yellow;
+}
+
+a[href="#learn"] {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+a.nav2:hover {
+    color: orange;
+}
+
+a.nav2:nth-of-type(3) {
+    background-color: red;
+}
+
+
+button:hover {
+    color: pink;
+    background-color: white;
+}
+
+h1:hover {
+    background-color: white;
+}
+
+h2:hover, h3:hover {
+    background-color: turquoise;
+}
+
+li:nth-of-type(2) {
+    color: yellow;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 35px;
+}
+
+p::first-line {
+    background-color: white;
+}
+
+p::selection {
+    background-color: darkolivegreen;
+}
