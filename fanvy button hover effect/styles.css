@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(226, 181, 96);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background: none;
+    color: #9350ff;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 1s;
+
+}
+
+button:hover {
+    border-color: red;
+    color: white;
+    box-shadow:  0 0.5em 0.5em -0.4em green;
+    transform: translateY(5em);
+    transition: all 3s;
+}
