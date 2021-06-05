@@ -1,5 +1,9 @@
+body {
+    margin: 0px;
+}
+
 div {
-    width: 33%;
+    width: 33%; 
     height: 33%;
     background-color: bisque;
 }
@@ -14,6 +18,7 @@ div {
     padding-left: 30px;
     padding-bottom: 30px;
     margin-left: 40px;
+    margin-top: 30px;
     
 }
 
@@ -24,6 +29,9 @@ div {
     border-style: dotted;
     box-sizing: border-box;
     border-radius: 50% 20% / 10% 40%;
+    margin: 100px;
+    padding-bottom: 35px;
+    margin-bottom: 533px;
 }
 
 #three {
