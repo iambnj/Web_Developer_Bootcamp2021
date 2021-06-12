@@ -5,6 +5,7 @@ body {
 h1 {
     font-size: 6em;
     text-align: center;
+    color: red;
 }
 nav {
     font-size: 1.5em;
@@ -16,5 +17,26 @@ ul,li {
     padding: 0;
 }
 
+/* @media  (max-width: 1600){
+    h1 {
+        color: purple;
+    }
+}
+
+@media  (max-width: 1200){
+    h1 {
+        color: orange;
+    }
+}
+@media  (max-width: 800){
+    h1 {
+        color: blue;
+    }
+} */
 
 
+@media (max-width: 500px) {
+    h1 {
+        color: orange;
+    }
+}
