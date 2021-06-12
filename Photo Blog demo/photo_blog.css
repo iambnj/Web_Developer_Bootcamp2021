@@ -1,0 +1,18 @@
+img {
+    width: 28%;
+    margin: calc(10%/6);
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid gray;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3.0em;
+    
+
+}
