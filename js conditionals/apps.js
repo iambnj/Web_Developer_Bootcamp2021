@@ -18,3 +18,13 @@ if (random >= 0.5) {
     console.log("Your number is greater than 0.5!!!!")
     console.log(random)
 }
+
+let rating = prompt("what's your rating?").toLowerCase;
+
+if (rating > 5) {
+    console.log("rating is more than 5")
+}
+
+else if (rating < 5) {
+    console.log("rating is less than 5")
+}
