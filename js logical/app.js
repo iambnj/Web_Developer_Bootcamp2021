@@ -4,3 +4,5 @@ if (password.length >= 6 && password.indexOf(' ') === -1) {
 } else {
     console.log('This is not a valid password!');
 }
+
+const num = 2
